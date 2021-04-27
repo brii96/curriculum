@@ -1,0 +1,98 @@
+/*ESTILOS GENEALRES*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.inicio{
+    display: flex;
+    background-image: url("https://raw.githubusercontent.com/brii96/repositorio/main/img/fondoCV4%202.png");
+    /* background-size: 1263px 184px; */
+}
+
+.inicio__foto{
+    background-color:rgba(38, 59, 87, 0.5);
+    padding: 20px 50px;
+}
+
+.inicio__titulo{
+    padding: 40px 50px;
+}
+
+.titulo__especialidad{
+    padding: 20px 0px;
+    color: rgb(102, 102, 102);
+}
+
+.principal{
+    display: flex;
+    background-color: gray;
+}
+
+.informacion__titulo{
+    color: #2d7788;
+    text-transform: uppercase;
+    /* font-size: 24px; */
+    margin-bottom: 10px;
+}
+
+.informacion__contacto{
+    background-color: #263b57;
+    padding: 10px 52px 10px 52px;
+    /* margin: 0px 20px 0px 20px; */
+
+}
+
+.informacion__experiencia{
+    background-color: rgb(221, 219, 219);
+    padding: 10px 50px 10px 40px;
+}
+
+.logo__html:hover{
+    color: rosybrown;
+    /* pointer-events: none; */
+}
+
+svg:hover{
+    fill: rgb(94, 86, 86);
+}
+
+.skills_text{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+li{
+    display: flex;
+
+}
+
+.footer{
+    padding: 20px;
+    background-color: rgb(2, 46, 13);
+}
+
+.titulo__articulo{
+    color: #0b404d;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtitulo__articulo{
+    color: #013a3a;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.texto_footer{
+    color: red;
+    text-align: center;
+}
